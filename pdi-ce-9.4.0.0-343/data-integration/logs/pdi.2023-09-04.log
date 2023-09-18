@@ -1,0 +1,423 @@
+2023-09-04 14:30:59.668 INFO  <Thread-34> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2023-09-04 14:30:59.758 INFO  <init of Table output.0 (Thread-36)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Connected to database [MySQL connection] (commit=1000)
+2023-09-04 14:30:59.894 ERROR <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Because of an error, this step can't continue: 
+2023-09-04 14:30:59.897 ERROR <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  org.pentaho.di.core.exception.KettleException: 
+Error inserting row into table [dim_customer] with values: [30121], [F. Stanley], [Best], [2800 Cantrell Road], [Little Rock], [AR], [72202], [(501) 555-6079], [(501) 555-6111], [null]
+
+Error inserting/updating row
+Unknown column 'Phone' in 'field list'
+
+
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:384)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:125)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.pentaho.di.core.exception.KettleDatabaseException: 
+Error inserting/updating row
+Unknown column 'Phone' in 'field list'
+
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1335)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:262)
+	... 3 more
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'Phone' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1302)
+	... 4 more
+
+2023-09-04 14:30:59.901 INFO  <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Finished reading query, closing connection
+2023-09-04 14:30:59.905 INFO  <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-04 14:30:59.907 WARN  <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Transformation detected one or more steps with errors.
+2023-09-04 14:30:59.908 WARN  <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Transformation is killing the other steps!
+2023-09-04 14:30:59.910 INFO  <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Finished processing (I=227, O=0, R=0, W=225, U=0, E=0)
+2023-09-04 14:30:59.973 ERROR <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Errors detected!
+2023-09-04 14:30:59.976 ERROR <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Errors detected!
+2023-09-04 14:31:00.304 ERROR <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Errors detected!
+2023-09-04 14:32:10.358 INFO  <Thread-41> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2023-09-04 14:32:10.389 INFO  <init of Table output.0 (Thread-43)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Connected to database [MySQL connection] (commit=1000)
+2023-09-04 14:32:10.419 ERROR <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Because of an error, this step can't continue: 
+2023-09-04 14:32:10.422 ERROR <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  org.pentaho.di.core.exception.KettleException: 
+Error inserting row into table [dim_customer] with values: [30121], [F. Stanley], [Best], [2800 Cantrell Road], [Little Rock], [AR], [72202], [(501) 555-6079], [(501) 555-6111], [null]
+
+Error inserting/updating row
+Unknown column 'Phone' in 'field list'
+
+
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:384)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:125)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.pentaho.di.core.exception.KettleDatabaseException: 
+Error inserting/updating row
+Unknown column 'Phone' in 'field list'
+
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1335)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:262)
+	... 3 more
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'Phone' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1302)
+	... 4 more
+
+2023-09-04 14:32:10.424 INFO  <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Finished reading query, closing connection
+2023-09-04 14:32:10.428 INFO  <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-04 14:32:10.430 WARN  <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Transformation detected one or more steps with errors.
+2023-09-04 14:32:10.431 WARN  <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Transformation is killing the other steps!
+2023-09-04 14:32:10.434 INFO  <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Finished processing (I=218, O=0, R=0, W=217, U=0, E=0)
+2023-09-04 14:32:10.502 ERROR <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Errors detected!
+2023-09-04 14:32:10.504 ERROR <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Errors detected!
+2023-09-04 14:32:10.523 ERROR <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Errors detected!
+2023-09-04 14:39:03.445 INFO  <Thread-50> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2023-09-04 14:39:03.497 INFO  <init of Table output.0 (Thread-52)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Connected to database [MySQL connection] (commit=1000)
+2023-09-04 14:39:03.528 ERROR <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Because of an error, this step can't continue: 
+2023-09-04 14:39:03.531 ERROR <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  org.pentaho.di.core.exception.KettleException: 
+Error inserting row into table [dim_customer] with values: [30121], [F. Stanley], [Best], [2800 Cantrell Road], [Little Rock], [AR], [72202], [(501) 555-6079], [(501) 555-6111], [null]
+
+Error inserting/updating row
+Unknown column 'Phone' in 'field list'
+
+
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:384)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:125)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.pentaho.di.core.exception.KettleDatabaseException: 
+Error inserting/updating row
+Unknown column 'Phone' in 'field list'
+
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1335)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:262)
+	... 3 more
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'Phone' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1302)
+	... 4 more
+
+2023-09-04 14:39:03.535 INFO  <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Finished reading query, closing connection
+2023-09-04 14:39:03.538 INFO  <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-04 14:39:03.540 WARN  <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Transformation detected one or more steps with errors.
+2023-09-04 14:39:03.540 WARN  <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Transformation is killing the other steps!
+2023-09-04 14:39:03.545 INFO  <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Finished processing (I=357, O=0, R=0, W=355, U=0, E=0)
+2023-09-04 14:39:03.597 ERROR <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Errors detected!
+2023-09-04 14:39:03.599 ERROR <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Errors detected!
+2023-09-04 14:39:03.621 ERROR <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Errors detected!
+2023-09-04 14:39:09.764 INFO  <Thread-57> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2023-09-04 14:39:09.807 INFO  <init of Table output.0 (Thread-59)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Connected to database [MySQL connection] (commit=1000)
+2023-09-04 14:39:09.843 ERROR <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Because of an error, this step can't continue: 
+2023-09-04 14:39:09.845 ERROR <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  org.pentaho.di.core.exception.KettleException: 
+Error inserting row into table [dim_customer] with values: [30121], [F. Stanley], [Best], [2800 Cantrell Road], [Little Rock], [AR], [72202], [(501) 555-6079], [(501) 555-6111], [null]
+
+Error inserting/updating row
+Unknown column 'Phone' in 'field list'
+
+
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:384)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:125)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.pentaho.di.core.exception.KettleDatabaseException: 
+Error inserting/updating row
+Unknown column 'Phone' in 'field list'
+
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1335)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:262)
+	... 3 more
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'Phone' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1302)
+	... 4 more
+
+2023-09-04 14:39:09.847 INFO  <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Finished reading query, closing connection
+2023-09-04 14:39:09.852 INFO  <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-04 14:39:09.853 WARN  <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Transformation detected one or more steps with errors.
+2023-09-04 14:39:09.854 WARN  <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Transformation is killing the other steps!
+2023-09-04 14:39:09.855 INFO  <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Finished processing (I=341, O=0, R=0, W=339, U=0, E=0)
+2023-09-04 14:39:09.916 ERROR <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Errors detected!
+2023-09-04 14:39:09.919 ERROR <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Errors detected!
+2023-09-04 14:39:09.944 ERROR <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Errors detected!
+2023-09-04 14:41:34.733 INFO  <Thread-66> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2023-09-04 14:41:34.765 INFO  <init of Table output.0 (Thread-68)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Connected to database [MySQL connection] (commit=1000)
+2023-09-04 14:41:34.831 INFO  <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Finished reading query, closing connection
+2023-09-04 14:41:34.836 INFO  <Transformation 1 - Table input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Finished processing (I=1587, O=0, R=0, W=1587, U=0, E=0)
+2023-09-04 14:41:35.974 INFO  <Transformation 1 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 1.ktr]  Finished processing (I=0, O=1587, R=1587, W=1587, U=0, E=0)
+2023-09-04 14:53:31.494 INFO  <Thread-86> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Dispatching started for transformation [Transformation 2]
+2023-09-04 14:53:31.500 ERROR <init of Table output.0 (Thread-88)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Error initializing step [Table output]
+2023-09-04 14:53:31.501 ERROR <init of Table output.0 (Thread-88)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  java.lang.NullPointerException
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.init(TableOutput.java:479)
+	at org.pentaho.di.trans.step.StepInitThread.run(StepInitThread.java:69)
+	at java.lang.Thread.run(Unknown Source)
+
+2023-09-04 14:53:31.509 ERROR <Thread-86> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Step [Table output.0] failed to initialize!
+2023-09-04 15:08:05.826 INFO  <ModalContext> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr : Transformation 2.ktr]  Dispatching started for transformation [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr : Transformation 2]
+2023-09-04 15:08:05.903 INFO  <C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr : Transformation 2 - CSV file input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr : Transformation 2.ktr]  Header row skipped in file 'C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\data-integration\samples\transformations\files\sales_data.csv'
+2023-09-04 15:08:06.398 INFO  <C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr : Transformation 2 - CSV file input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr : Transformation 2.ktr]  Finished processing (I=1003, O=0, R=0, W=1001, U=0, E=0)
+2023-09-04 15:08:06.399 INFO  <C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr : Transformation 2 - dummy> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr : Transformation 2.ktr]  Finished processing (I=0, O=0, R=901, W=900, U=0, E=0)
+2023-09-04 15:15:08.348 INFO  <Thread-34> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Dispatching started for transformation [Transformation 2]
+2023-09-04 15:15:08.390 INFO  <init of Table output.0 (Thread-36)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Connected to database [Mysqlcon] (commit=1000)
+2023-09-04 15:15:08.411 INFO  <Transformation 2 - CSV file input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Header row skipped in file 'C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\data-integration\samples\transformations\files\sales_data.csv'
+2023-09-04 15:15:08.436 ERROR <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Unexpected error
+2023-09-04 15:15:08.438 ERROR <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  org.pentaho.di.core.exception.KettleDatabaseException: 
+Couldn't execute SQL: DELETE FROM sales
+
+Table 'sampledata.sales' doesn't exist
+
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1572)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1522)
+	at org.pentaho.di.core.database.Database.truncateTable(Database.java:3311)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.truncateTable(TableOutput.java:567)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:86)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'sampledata.sales' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.mysql.cj.jdbc.StatementImpl.createResultSetUsingServerFetch(StatementImpl.java:565)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:699)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1547)
+	... 6 more
+
+2023-09-04 15:15:08.441 INFO  <Transformation 2 - CSV file input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=160, O=0, R=0, W=158, U=0, E=0)
+2023-09-04 15:15:08.450 INFO  <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-04 15:15:08.455 ERROR <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-04 15:15:08.457 ERROR <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-04 15:15:08.742 ERROR <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-04 15:15:08.771 WARN  <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation detected one or more steps with errors.
+2023-09-04 15:15:08.771 WARN  <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation is killing the other steps!
+2023-09-04 15:15:18.889 INFO  <Thread-41> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Dispatching started for transformation [Transformation 2]
+2023-09-04 15:15:18.920 INFO  <init of Table output.0 (Thread-43)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Connected to database [Mysqlcon] (commit=1000)
+2023-09-04 15:15:18.931 INFO  <Transformation 2 - CSV file input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Header row skipped in file 'C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\data-integration\samples\transformations\files\sales_data.csv'
+2023-09-04 15:15:18.943 ERROR <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Unexpected error
+2023-09-04 15:15:18.944 ERROR <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  org.pentaho.di.core.exception.KettleDatabaseException: 
+Couldn't execute SQL: DELETE FROM sales
+
+Table 'sampledata.sales' doesn't exist
+
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1572)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1522)
+	at org.pentaho.di.core.database.Database.truncateTable(Database.java:3311)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.truncateTable(TableOutput.java:567)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:86)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'sampledata.sales' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.mysql.cj.jdbc.StatementImpl.createResultSetUsingServerFetch(StatementImpl.java:565)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:699)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1547)
+	... 6 more
+
+2023-09-04 15:15:18.946 INFO  <Transformation 2 - CSV file input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=136, O=0, R=0, W=134, U=0, E=0)
+2023-09-04 15:15:18.950 INFO  <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-04 15:15:18.954 ERROR <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-04 15:15:18.956 ERROR <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-04 15:15:18.990 ERROR <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-04 15:15:19.110 WARN  <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation detected one or more steps with errors.
+2023-09-04 15:15:19.111 WARN  <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation is killing the other steps!
+2023-09-04 15:15:22.132 INFO  <Thread-48> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Dispatching started for transformation [Transformation 2]
+2023-09-04 15:15:22.181 INFO  <init of Table output.0 (Thread-50)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Connected to database [Mysqlcon] (commit=1000)
+2023-09-04 15:15:22.192 INFO  <Transformation 2 - CSV file input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Header row skipped in file 'C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\data-integration\samples\transformations\files\sales_data.csv'
+2023-09-04 15:15:22.208 ERROR <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Unexpected error
+2023-09-04 15:15:22.209 ERROR <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  org.pentaho.di.core.exception.KettleDatabaseException: 
+Couldn't execute SQL: DELETE FROM sales
+
+Table 'sampledata.sales' doesn't exist
+
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1572)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1522)
+	at org.pentaho.di.core.database.Database.truncateTable(Database.java:3311)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.truncateTable(TableOutput.java:567)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:86)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'sampledata.sales' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.mysql.cj.jdbc.StatementImpl.createResultSetUsingServerFetch(StatementImpl.java:565)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:699)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1547)
+	... 6 more
+
+2023-09-04 15:15:22.211 INFO  <Transformation 2 - CSV file input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=668, O=0, R=0, W=666, U=0, E=0)
+2023-09-04 15:15:22.216 INFO  <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-04 15:15:22.220 ERROR <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-04 15:15:22.223 ERROR <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-04 15:15:22.284 ERROR <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Errors detected!
+2023-09-04 15:15:22.313 WARN  <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation detected one or more steps with errors.
+2023-09-04 15:15:22.314 WARN  <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Transformation is killing the other steps!
+2023-09-04 15:17:46.142 INFO  <Thread-57> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Dispatching started for transformation [Transformation 2]
+2023-09-04 15:17:46.172 INFO  <init of Table output.0 (Thread-59)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Connected to database [Mysqlcon] (commit=1000)
+2023-09-04 15:17:46.178 INFO  <Transformation 2 - CSV file input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Header row skipped in file 'C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\data-integration\samples\transformations\files\sales_data.csv'
+2023-09-04 15:17:46.225 INFO  <Transformation 2 - CSV file input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=2824, O=0, R=0, W=2823, U=0, E=0)
+2023-09-04 15:17:48.405 INFO  <Transformation 2 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr]  Finished processing (I=0, O=2823, R=2823, W=2823, U=0, E=0)
+2023-09-04 15:38:19.689 INFO  <Thread-86> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Dispatching started for transformation [Transformation 3]
+2023-09-04 15:38:19.744 INFO  <init of Table output.0 (Thread-90)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Connected to database [Mysqlcon] (commit=1000)
+2023-09-04 15:38:19.777 INFO  <Transformation 3 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=3660, U=0, E=0)
+2023-09-04 15:38:19.780 ERROR <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Unexpected error
+2023-09-04 15:38:19.781 ERROR <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  java.lang.NullPointerException
+	at java.util.Calendar.setTime(Unknown Source)
+	at org.pentaho.di.core.row.ValueDataUtil.addDays(ValueDataUtil.java:1517)
+	at org.pentaho.di.trans.steps.calculator.Calculator.calcFields(Calculator.java:340)
+	at org.pentaho.di.trans.steps.calculator.Calculator.processRow(Calculator.java:164)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+2023-09-04 15:38:19.783 INFO  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-04 15:38:19.784 INFO  <Transformation 3 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=3426, W=3425, U=0, E=0)
+2023-09-04 15:38:19.784 WARN  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation detected one or more steps with errors.
+2023-09-04 15:38:19.785 WARN  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation is killing the other steps!
+2023-09-04 15:38:19.912 ERROR <Transformation 3 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:38:19.913 ERROR <Transformation 3 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:38:20.235 ERROR <Transformation 3 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:38:57.356 INFO  <Thread-100> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Dispatching started for transformation [Transformation 3]
+2023-09-04 15:38:57.390 INFO  <init of Table output.0 (Thread-104)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Connected to database [Mysqlcon] (commit=1000)
+2023-09-04 15:38:57.398 ERROR <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Unexpected error
+2023-09-04 15:38:57.398 ERROR <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  java.lang.NullPointerException
+	at java.util.Calendar.setTime(Unknown Source)
+	at org.pentaho.di.core.row.ValueDataUtil.addDays(ValueDataUtil.java:1517)
+	at org.pentaho.di.trans.steps.calculator.Calculator.calcFields(Calculator.java:340)
+	at org.pentaho.di.trans.steps.calculator.Calculator.processRow(Calculator.java:164)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+2023-09-04 15:38:57.400 INFO  <Transformation 3 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=3262, U=0, E=0)
+2023-09-04 15:38:57.402 INFO  <Transformation 3 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=578, W=578, U=0, E=0)
+2023-09-04 15:38:57.402 INFO  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-04 15:38:57.404 WARN  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation detected one or more steps with errors.
+2023-09-04 15:38:57.404 WARN  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation is killing the other steps!
+2023-09-04 15:38:57.536 ERROR <Transformation 3 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:38:57.538 ERROR <Transformation 3 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:38:57.604 ERROR <Transformation 3 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:40:30.477 INFO  <Thread-114> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Dispatching started for transformation [Transformation 3]
+2023-09-04 15:40:30.511 INFO  <init of Table output.0 (Thread-118)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Connected to database [Mysqlcon] (commit=1000)
+2023-09-04 15:40:30.544 ERROR <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Unexpected error
+2023-09-04 15:40:30.544 ERROR <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  java.lang.NullPointerException
+	at java.util.Calendar.setTime(Unknown Source)
+	at org.pentaho.di.core.row.ValueDataUtil.addDays(ValueDataUtil.java:1517)
+	at org.pentaho.di.trans.steps.calculator.Calculator.calcFields(Calculator.java:340)
+	at org.pentaho.di.trans.steps.calculator.Calculator.processRow(Calculator.java:164)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+2023-09-04 15:40:30.547 INFO  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-04 15:40:30.548 INFO  <Transformation 3 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=1027, W=1027, U=0, E=0)
+2023-09-04 15:40:30.549 INFO  <Transformation 3 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=2366, U=0, E=0)
+2023-09-04 15:40:30.550 WARN  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation detected one or more steps with errors.
+2023-09-04 15:40:30.551 WARN  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation is killing the other steps!
+2023-09-04 15:40:30.682 ERROR <Transformation 3 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:40:30.682 ERROR <Transformation 3 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:40:30.699 ERROR <Transformation 3 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:41:15.417 INFO  <Thread-126> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Dispatching started for transformation [Transformation 3]
+2023-09-04 15:41:15.443 INFO  <init of Table output.0 (Thread-130)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Connected to database [Mysqlcon] (commit=1000)
+2023-09-04 15:41:15.451 ERROR <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Unexpected error
+2023-09-04 15:41:15.452 ERROR <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  java.lang.NullPointerException
+	at java.util.Calendar.setTime(Unknown Source)
+	at org.pentaho.di.core.row.ValueDataUtil.addDays(ValueDataUtil.java:1517)
+	at org.pentaho.di.trans.steps.calculator.Calculator.calcFields(Calculator.java:340)
+	at org.pentaho.di.trans.steps.calculator.Calculator.processRow(Calculator.java:164)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+2023-09-04 15:41:15.453 INFO  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-04 15:41:15.454 INFO  <Transformation 3 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=3065, U=0, E=0)
+2023-09-04 15:41:15.455 INFO  <Transformation 3 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=904, W=904, U=0, E=0)
+2023-09-04 15:41:15.456 WARN  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation detected one or more steps with errors.
+2023-09-04 15:41:15.456 WARN  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation is killing the other steps!
+2023-09-04 15:41:15.574 ERROR <Transformation 3 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:41:15.575 ERROR <Transformation 3 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:41:15.592 ERROR <Transformation 3 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:41:25.788 INFO  <Thread-137> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Dispatching started for transformation [Transformation 3]
+2023-09-04 15:41:25.811 INFO  <init of Table output.0 (Thread-141)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Connected to database [Mysqlcon] (commit=1000)
+2023-09-04 15:41:25.820 ERROR <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Unexpected error
+2023-09-04 15:41:25.820 ERROR <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  java.lang.NullPointerException
+	at java.util.Calendar.setTime(Unknown Source)
+	at org.pentaho.di.core.row.ValueDataUtil.addDays(ValueDataUtil.java:1517)
+	at org.pentaho.di.trans.steps.calculator.Calculator.calcFields(Calculator.java:340)
+	at org.pentaho.di.trans.steps.calculator.Calculator.processRow(Calculator.java:164)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+2023-09-04 15:41:25.832 INFO  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-04 15:41:25.833 INFO  <Transformation 3 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=2477, U=0, E=0)
+2023-09-04 15:41:25.833 INFO  <Transformation 3 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=914, W=914, U=0, E=0)
+2023-09-04 15:41:25.834 WARN  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation detected one or more steps with errors.
+2023-09-04 15:41:25.835 WARN  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation is killing the other steps!
+2023-09-04 15:41:25.959 ERROR <Transformation 3 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:41:25.959 ERROR <Transformation 3 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:41:25.974 ERROR <Transformation 3 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:42:09.450 INFO  <Thread-149> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Dispatching started for transformation [Transformation 3]
+2023-09-04 15:42:09.481 INFO  <init of Table output.0 (Thread-153)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Connected to database [Mysqlcon] (commit=1000)
+2023-09-04 15:42:09.489 ERROR <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Unexpected error
+2023-09-04 15:42:09.490 ERROR <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  java.lang.NullPointerException
+	at java.util.Calendar.setTime(Unknown Source)
+	at org.pentaho.di.core.row.ValueDataUtil.addDays(ValueDataUtil.java:1517)
+	at org.pentaho.di.trans.steps.calculator.Calculator.calcFields(Calculator.java:340)
+	at org.pentaho.di.trans.steps.calculator.Calculator.processRow(Calculator.java:164)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+2023-09-04 15:42:09.491 INFO  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-04 15:42:09.492 INFO  <Transformation 3 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=1880, U=0, E=0)
+2023-09-04 15:42:09.492 WARN  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation detected one or more steps with errors.
+2023-09-04 15:42:09.493 INFO  <Transformation 3 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=1300, W=1299, U=0, E=0)
+2023-09-04 15:42:09.493 WARN  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation is killing the other steps!
+2023-09-04 15:42:09.618 ERROR <Transformation 3 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:42:09.618 ERROR <Transformation 3 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:42:09.634 ERROR <Transformation 3 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:43:08.597 INFO  <Thread-161> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Dispatching started for transformation [Transformation 3]
+2023-09-04 15:43:08.618 INFO  <init of Table output.0 (Thread-165)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Connected to database [Mysqlcon] (commit=1000)
+2023-09-04 15:43:08.625 ERROR <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Unexpected error
+2023-09-04 15:43:08.626 ERROR <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  java.lang.NullPointerException
+	at java.util.Calendar.setTime(Unknown Source)
+	at org.pentaho.di.core.row.ValueDataUtil.addDays(ValueDataUtil.java:1517)
+	at org.pentaho.di.trans.steps.calculator.Calculator.calcFields(Calculator.java:340)
+	at org.pentaho.di.trans.steps.calculator.Calculator.processRow(Calculator.java:164)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+2023-09-04 15:43:08.627 INFO  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-04 15:43:08.628 INFO  <Transformation 3 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=954, W=953, U=0, E=0)
+2023-09-04 15:43:08.629 INFO  <Transformation 3 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=2113, U=0, E=0)
+2023-09-04 15:43:08.630 WARN  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation detected one or more steps with errors.
+2023-09-04 15:43:08.630 WARN  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Transformation is killing the other steps!
+2023-09-04 15:43:08.748 ERROR <Transformation 3 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:43:08.749 ERROR <Transformation 3 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:43:08.763 ERROR <Transformation 3 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Errors detected!
+2023-09-04 15:44:04.290 INFO  <Thread-175> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Dispatching started for transformation [Transformation 3]
+2023-09-04 15:44:04.318 INFO  <init of Table output.0 (Thread-179)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Connected to database [Mysqlcon] (commit=1000)
+2023-09-04 15:44:04.327 INFO  <Transformation 3 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=0, W=3660, U=0, E=0)
+2023-09-04 15:44:04.359 INFO  <Transformation 3 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-04 15:44:04.907 INFO  <Transformation 3 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-04 15:44:06.575 INFO  <Transformation 3 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 3.ktr]  Finished processing (I=0, O=3660, R=3660, W=3660, U=0, E=0)

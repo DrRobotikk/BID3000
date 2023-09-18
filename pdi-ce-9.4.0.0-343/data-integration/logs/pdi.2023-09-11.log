@@ -1,0 +1,127 @@
+2023-09-11 12:29:22.914 INFO  <Thread-36> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 4.ktr]  Dispatching started for transformation [Transformation 4]
+2023-09-11 12:29:23.247 INFO  <Transformation 4 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 4.ktr]  Finished processing (I=0, O=0, R=0, W=3660, U=0, E=0)
+2023-09-11 12:29:23.289 INFO  <Transformation 4 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 4.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-11 12:29:24.044 INFO  <Transformation 4 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 4.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-11 12:29:24.051 INFO  <Transformation 4 - Select values> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 4.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-11 12:29:24.079 INFO  <Transformation 4 - Dummy (do nothing)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 4.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-11 12:50:20.755 INFO  <Thread-64> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Dispatching started for transformation [Transformation 5]
+2023-09-11 12:50:20.781 INFO  <Transformation 5 - Sales Data Stream> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2023-09-11 12:50:20.782 INFO  <Transformation 5 - Customer Info Stream> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2023-09-11 12:50:21.011 INFO  <Transformation 5 - Stream lookup> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=2, W=1, U=0, E=0)
+2023-09-11 12:50:21.041 INFO  <Transformation 5 - Dummy (do nothing)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2023-09-11 12:52:51.913 INFO  <Thread-75> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Dispatching started for transformation [Transformation 5]
+2023-09-11 12:52:51.949 INFO  <Transformation 5 - Customer Info Stream> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=0, W=5, U=0, E=0)
+2023-09-11 12:52:51.950 INFO  <Transformation 5 - Sales Data Stream> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-11 12:52:52.153 INFO  <Transformation 5 - Stream lookup> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=9, W=4, U=0, E=0)
+2023-09-11 12:52:52.183 INFO  <Transformation 5 - Dummy (do nothing)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-11 12:54:25.227 INFO  <Thread-87> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Dispatching started for transformation [Transformation 5]
+2023-09-11 12:54:25.238 INFO  <Transformation 5 - Customer Info Stream> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=0, W=5, U=0, E=0)
+2023-09-11 12:54:25.239 INFO  <Transformation 5 - Sales Data Stream> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-11 12:54:25.443 INFO  <Transformation 5 - Stream lookup> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=9, W=4, U=0, E=0)
+2023-09-11 12:54:25.458 INFO  <Transformation 5 - Dummy (do nothing)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-11 13:21:50.092 INFO  <ModalContext> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr : Transformation 2.ktr]  Dispatching started for transformation [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr : Transformation 2]
+2023-09-11 13:21:50.155 INFO  <C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr : Transformation 2 - CSV file input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr : Transformation 2.ktr]  Header row skipped in file 'C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\data-integration\samples\transformations\files\sales_data.csv'
+2023-09-11 13:21:50.623 INFO  <C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr : Transformation 2 - dummy> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr : Transformation 2.ktr]  Finished processing (I=0, O=0, R=889, W=888, U=0, E=0)
+2023-09-11 13:21:50.623 INFO  <C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr : Transformation 2 - CSV file input> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 2.ktr : Transformation 2.ktr]  Finished processing (I=1003, O=0, R=0, W=1001, U=0, E=0)
+2023-09-11 13:27:41.843 INFO  <Thread-125> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 6.ktr]  Dispatching started for transformation [Transformation 6]
+2023-09-11 13:27:41.848 INFO  <Transformation 6 - Data grid> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 6.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-11 13:27:41.875 INFO  <Transformation 6 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 6.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-11 13:27:41.908 INFO  <Transformation 6 - Dummy (do nothing)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 6.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-11 14:04:11.555 INFO  <Thread-163> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Dispatching started for transformation [Transformation 8]
+2023-09-11 14:04:11.623 INFO  <init of Table output.0 (Thread-170)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Connected to database [mysql] (commit=1000)
+2023-09-11 14:04:11.704 INFO  <Transformation 8 - Table input country> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished reading query, closing connection
+2023-09-11 14:04:11.705 INFO  <Transformation 8 - Table input inventory> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished reading query, closing connection
+2023-09-11 14:04:11.710 INFO  <Transformation 8 - Table input inventory> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=128, O=0, R=0, W=128, U=0, E=0)
+2023-09-11 14:04:11.710 INFO  <Transformation 8 - Table input country> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=256, O=0, R=0, W=256, U=0, E=0)
+2023-09-11 14:04:11.739 INFO  <Transformation 8 - Sort rows 2> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=0, O=0, R=256, W=256, U=0, E=0)
+2023-09-11 14:04:11.740 INFO  <Transformation 8 - Sort rows> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=0, O=0, R=128, W=35, U=0, E=0)
+2023-09-11 14:04:11.752 ERROR <Transformation 8 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Unexpected error
+2023-09-11 14:04:11.754 ERROR <Transformation 8 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  org.pentaho.di.core.exception.KettleDatabaseException: 
+Couldn't execute SQL: DELETE FROM coffeemerchant_spoon_dw2.dim_inventory
+
+Table 'coffeemerchant_spoon_dw2.dim_inventory' doesn't exist
+
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1572)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1522)
+	at org.pentaho.di.core.database.Database.truncateTable(Database.java:3311)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.truncateTable(TableOutput.java:567)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:86)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'coffeemerchant_spoon_dw2.dim_inventory' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.mysql.cj.jdbc.StatementImpl.createResultSetUsingServerFetch(StatementImpl.java:565)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:699)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.pentaho.di.core.database.Database.execStatement(Database.java:1547)
+	... 6 more
+
+2023-09-11 14:04:11.756 INFO  <Transformation 8 - Select values> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=0, O=0, R=7, W=7, U=0, E=0)
+2023-09-11 14:04:11.759 INFO  <Transformation 8 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-11 14:04:11.760 WARN  <Transformation 8 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Transformation detected one or more steps with errors.
+2023-09-11 14:04:11.760 WARN  <Transformation 8 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Transformation is killing the other steps!
+2023-09-11 14:04:11.861 INFO  <Transformation 8 - Merge join> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=0, O=0, R=232, W=34, U=0, E=0)
+2023-09-11 14:04:11.973 ERROR <Transformation 8 - Merge join> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Errors detected!
+2023-09-11 14:04:11.976 ERROR <Transformation 8 - Merge join> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Errors detected!
+2023-09-11 14:04:12.112 ERROR <Transformation 8 - Merge join> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Errors detected!
+2023-09-11 14:07:24.458 INFO  <Thread-183> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Dispatching started for transformation [Transformation 8]
+2023-09-11 14:07:24.499 INFO  <init of Table output.0 (Thread-190)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Connected to database [mysql] (commit=1000)
+2023-09-11 14:07:24.605 INFO  <Transformation 8 - Table input inventory> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished reading query, closing connection
+2023-09-11 14:07:24.608 INFO  <Transformation 8 - Table input country> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished reading query, closing connection
+2023-09-11 14:07:24.608 INFO  <Transformation 8 - Table input inventory> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=128, O=0, R=0, W=128, U=0, E=0)
+2023-09-11 14:07:24.613 INFO  <Transformation 8 - Table input country> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=256, O=0, R=0, W=256, U=0, E=0)
+2023-09-11 14:07:24.633 INFO  <Transformation 8 - Sort rows> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=0, O=0, R=128, W=35, U=0, E=0)
+2023-09-11 14:07:24.636 INFO  <Transformation 8 - Sort rows 2> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=0, O=0, R=256, W=256, U=0, E=0)
+2023-09-11 14:07:24.660 ERROR <Transformation 8 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Because of an error, this step can't continue: 
+2023-09-11 14:07:24.662 ERROR <Transformation 8 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  org.pentaho.di.core.exception.KettleException: 
+Error inserting row into table [dim_inventory] with values: [179], [Passionfruit Fruit Blend], [12.8], [T], [null]
+
+Error inserting/updating row
+Field 'name' doesn't have a default value
+
+
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:384)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.processRow(TableOutput.java:125)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.pentaho.di.core.exception.KettleDatabaseException: 
+Error inserting/updating row
+Field 'name' doesn't have a default value
+
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1335)
+	at org.pentaho.di.trans.steps.tableoutput.TableOutput.writeToTable(TableOutput.java:262)
+	... 3 more
+Caused by: java.sql.SQLException: Field 'name' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ServerPreparedStatement.serverExecute(ServerPreparedStatement.java:555)
+	at com.mysql.cj.jdbc.ServerPreparedStatement.executeInternal(ServerPreparedStatement.java:339)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at org.pentaho.di.core.database.Database.insertRow(Database.java:1302)
+	... 4 more
+
+2023-09-11 14:07:24.663 INFO  <Transformation 8 - Select values> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=0, O=0, R=16, W=16, U=0, E=0)
+2023-09-11 14:07:24.668 INFO  <Transformation 8 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2023-09-11 14:07:24.668 WARN  <Transformation 8 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Transformation detected one or more steps with errors.
+2023-09-11 14:07:24.669 WARN  <Transformation 8 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Transformation is killing the other steps!
+2023-09-11 14:07:24.753 INFO  <Transformation 8 - Merge join> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=0, O=0, R=232, W=34, U=0, E=0)
+2023-09-11 14:07:24.878 ERROR <Transformation 8 - Merge join> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Errors detected!
+2023-09-11 14:07:24.880 ERROR <Transformation 8 - Merge join> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Errors detected!
+2023-09-11 14:07:24.898 ERROR <Transformation 8 - Merge join> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Errors detected!
+2023-09-11 14:08:46.868 INFO  <Thread-201> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Dispatching started for transformation [Transformation 8]
+2023-09-11 14:08:46.925 INFO  <init of Table output.0 (Thread-208)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Connected to database [mysql] (commit=1000)
+2023-09-11 14:08:46.950 INFO  <Transformation 8 - Table input country> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished reading query, closing connection
+2023-09-11 14:08:46.951 INFO  <Transformation 8 - Table input inventory> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished reading query, closing connection
+2023-09-11 14:08:46.956 INFO  <Transformation 8 - Table input inventory> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=128, O=0, R=0, W=128, U=0, E=0)
+2023-09-11 14:08:46.956 INFO  <Transformation 8 - Table input country> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=256, O=0, R=0, W=256, U=0, E=0)
+2023-09-11 14:08:46.980 INFO  <Transformation 8 - Sort rows> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=0, O=0, R=128, W=35, U=0, E=0)
+2023-09-11 14:08:46.981 INFO  <Transformation 8 - Sort rows 2> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=0, O=0, R=256, W=256, U=0, E=0)
+2023-09-11 14:08:47.338 INFO  <Transformation 8 - Merge join> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=0, O=0, R=291, W=35, U=0, E=0)
+2023-09-11 14:08:47.370 INFO  <Transformation 8 - Select values> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=0, O=0, R=35, W=35, U=0, E=0)
+2023-09-11 14:08:47.418 INFO  <Transformation 8 - Table output> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 8.ktr]  Finished processing (I=0, O=35, R=35, W=35, U=0, E=0)

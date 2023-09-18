@@ -1,0 +1,42 @@
+2023-09-12 13:38:05.533 INFO  <Thread-34> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 4.ktr]  Dispatching started for transformation [Transformation 4]
+2023-09-12 13:38:05.759 INFO  <Transformation 4 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 4.ktr]  Finished processing (I=0, O=0, R=0, W=3660, U=0, E=0)
+2023-09-12 13:38:05.828 INFO  <Transformation 4 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 4.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 13:38:06.477 INFO  <Transformation 4 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 4.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 13:38:06.526 INFO  <Transformation 4 - Select values> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 4.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 13:38:06.571 INFO  <Transformation 4 - Dummy (do nothing)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 4.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 14:04:30.319 INFO  <Thread-65> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Dispatching started for transformation [Transformation 5]
+2023-09-12 14:04:30.346 INFO  <Transformation 5 - Sales Data Stream> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:04:30.348 INFO  <Transformation 5 - Customer Info Stream> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=0, W=5, U=0, E=0)
+2023-09-12 14:04:30.556 INFO  <Transformation 5 - Stream lookup> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=9, W=4, U=0, E=0)
+2023-09-12 14:04:30.587 INFO  <Transformation 5 - Dummy (do nothing)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-12 14:04:40.005 INFO  <Thread-76> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Dispatching started for transformation [Transformation 5]
+2023-09-12 14:04:40.018 INFO  <Transformation 5 - Customer Info Stream> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=0, W=5, U=0, E=0)
+2023-09-12 14:04:40.020 INFO  <Transformation 5 - Sales Data Stream> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:04:40.234 INFO  <Transformation 5 - Stream lookup> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=9, W=4, U=0, E=0)
+2023-09-12 14:04:40.265 INFO  <Transformation 5 - Dummy (do nothing)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-12 14:05:10.377 INFO  <Thread-89> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Dispatching started for transformation [Transformation 5]
+2023-09-12 14:05:10.393 INFO  <Transformation 5 - Customer Info Stream> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=0, W=5, U=0, E=0)
+2023-09-12 14:05:10.394 INFO  <Transformation 5 - Sales Data Stream> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:05:10.577 INFO  <Transformation 5 - Stream lookup> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=9, W=4, U=0, E=0)
+2023-09-12 14:05:10.603 INFO  <Transformation 5 - Dummy (do nothing)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-12 14:06:01.713 INFO  <Thread-101> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Dispatching started for transformation [Transformation 5]
+2023-09-12 14:06:01.725 INFO  <Transformation 5 - Customer Info Stream> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=0, W=5, U=0, E=0)
+2023-09-12 14:06:01.727 INFO  <Transformation 5 - Sales Data Stream> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:06:01.918 INFO  <Transformation 5 - Stream lookup> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=9, W=4, U=0, E=0)
+2023-09-12 14:06:01.945 INFO  <Transformation 5 - Dummy (do nothing)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-12 14:06:27.020 INFO  <Thread-113> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Dispatching started for transformation [Transformation 5]
+2023-09-12 14:06:27.027 INFO  <Transformation 5 - Customer Info Stream> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=0, W=5, U=0, E=0)
+2023-09-12 14:06:27.029 INFO  <Transformation 5 - Sales Data Stream> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:06:27.232 INFO  <Transformation 5 - Stream lookup> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=9, W=4, U=0, E=0)
+2023-09-12 14:06:27.264 INFO  <Transformation 5 - Dummy (do nothing)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-12 14:07:31.975 INFO  <Thread-128> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Dispatching started for transformation [Transformation 5]
+2023-09-12 14:07:31.986 INFO  <Transformation 5 - Sales Data Stream> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=0, W=4, U=0, E=0)
+2023-09-12 14:07:31.988 INFO  <Transformation 5 - Customer Info Stream> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=0, W=5, U=0, E=0)
+2023-09-12 14:07:32.196 INFO  <Transformation 5 - Stream lookup> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=9, W=4, U=0, E=0)
+2023-09-12 14:07:32.226 INFO  <Transformation 5 - Dummy (do nothing)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 5.ktr]  Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2023-09-12 14:18:32.717 INFO  <Thread-155> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 4.ktr]  Dispatching started for transformation [Transformation 4]
+2023-09-12 14:18:32.749 INFO  <Transformation 4 - Generate row dim_time> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 4.ktr]  Finished processing (I=0, O=0, R=0, W=3660, U=0, E=0)
+2023-09-12 14:18:32.768 INFO  <Transformation 4 - Add sequence> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 4.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 14:18:33.035 INFO  <Transformation 4 - Calculator> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 4.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 14:18:33.054 INFO  <Transformation 4 - Select values> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 4.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
+2023-09-12 14:18:33.086 INFO  <Transformation 4 - Dummy (do nothing)> [C:\Users\infer\Downloads\pdi-ce-9.4.0.0-343\Transformation 4.ktr]  Finished processing (I=0, O=0, R=3660, W=3660, U=0, E=0)
